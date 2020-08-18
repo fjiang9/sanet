@@ -16,7 +16,7 @@ python train.py --stage 2 --model_dir sanet --v_act no --v_norm yes --sim cos --
 python train.py --stage 2 --model_dir sanet-0lspk --v_act no --v_norm yes --sim cos --alpha 10.0 --sisdr 1.0 --compact 1.0 --cuda $cuda_id --train_metadata $train_set --val_metadata $val_set --train_n_src 2 --val_n_src 2
 - SANet (w/o ![](https://latex.codecogs.com/svg.latex?\mathcal{L}_{com}))  
 python train.py --stage 2 --model_dir sanet-0lcom --v_act no --v_norm yes --sim cos --alpha 10.0 --sisdr 1.0 --spk_circle 1.0 --cuda $cuda_id --train_metadata $train_set --val_metadata $val_set --train_n_src 2 --val_n_src 2
-- SANet (trained on 2- & 3-speaker mixtures)
+- SANet (trained on 2- & 3-speaker mixtures)  
 python train.py --stage 2 --model_dir sanet-23 --v_act no --v_norm yes --sim cos --alpha 10.0 --sisdr 1.0 --spk_circle 0.4 --compact 5.0 --cuda $cuda_id --train_metadata $train_set1 $train_set2 --val_metadata $val_set1 $val_set2 --train_n_src 2 3 --val_n_src 2 3 --batch_size 24
 ***
 ### Testing
