@@ -1,0 +1,45 @@
+# Encoder-decoder config
+cae:
+  n_filters: 64
+  kernel_size: 16
+  stride: 8
+  mask: irm
+  enc_act: relu
+  bias: no
+  stft: no
+# Embedding net config
+tcn:
+  B: 256
+  H: 256
+  P: 3
+  X: 5
+  R: 3
+  K: 32
+  v_act: no
+  v_norm: yes
+  sim: cos  # SANet: cos, DANet: dotProduct
+  act_fn: softmax
+  alpha: 1.0
+  weight: Wmr
+# Loss config
+loss_fn:
+  sisdr: 1.0
+  spk_circle: 0.0
+  spk_ce: 0.0
+  compact: 0.0
+# Training config
+training:
+  epochs: 200
+  batch_size: 16
+  num_workers: 20
+  half_lr: yes
+  early_stop: yes
+# Optim config
+optim:
+  optimizer: adam
+  lr: 0.001
+# Data config
+data:
+  subset: train-100
+  segment: 2.0
+  sample_rate: 8000
