@@ -6,7 +6,7 @@
 ***
 ### Training
 #### Stage 1 - Encoder-decoder pre-training
-python train.py --stage 1 --n_filters 64 --kernel_size 16 --stride 8 --mask irm --enc_act relu --bias no --cuda $cuda_id --train_metadata $train_set --val_metadata $val_set 
+python train.py --stage 1 --n_filters 128 --kernel_size 16 --stride 8 --mask irm --enc_act relu --bias no --cuda $cuda_id --train_metadata $train_set --val_metadata $val_set 
 #### Stage 2 - Embedding network training
 - Conv-DANet  
 python train.py --stage 2 --model_dir conv-danet --v_act yes --v_norm no --sim dotProduct --sisdr 1.0 --cuda $cuda_id --train_metadata $train_set --val_metadata $val_set 
