@@ -1,4 +1,4 @@
-## Speaker Attractor Network: Generalizing Speech Separation to Unknown Number of Sources
+## Speaker Attractor Network: Generalizing Speech Separation to Unseen Numbers of Sources
 [Paper link](http://www2.ece.rochester.edu/projects/air/publications/Jiang20speaker.pdf)
 
 ### Dataset
