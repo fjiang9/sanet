@@ -2,7 +2,7 @@
 
 ### Dataset
 - [LibriMix](https://github.com/JorisCos/LibriMix)
-- [SparseLibriMix](https://github.com/fjiang9/SparseLibriMix)
+- [SparseLibriMix](https://github.com/fjiang9/SparseLibriMix (Including the metadata files for generating Sparse4Mix and Sparse5Mix.))
 ***
 ### Training
 #### Stage 1 - Encoder-decoder pre-training
