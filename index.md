@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+# <center>Speaker Attractor Network: Generalizing Speech Separation to Unseen Numbers of Sources</center>
 
-You can use the [editor on GitHub](https://github.com/fjiang9/sanet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<center>Fei Jiang and Zhiyao Duan</center>
+<center>AIR Lab @ University of Rochester</center>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Abstract
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fjiang9/sanet/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<div style="text-align: justify; width: 100%"> Most existing speech separation research focuses on improving the separation performance under consistent source number conditions between training and testing. In real-world applications, however, the source number may be different from that in training sets. In this letter, we address this problem by thoroughly improving the deep attractor network in terms of the network architecture and learning objectives so that it can well generalize to separating an unseen number of sources. Experimental results show that, compared with existing models, the proposed method significantly improves the separation performance when generalizing to an unseen number of speakers, and can separate up to five speakers even the model is only trained on two-speaker mixtures. </div> 
